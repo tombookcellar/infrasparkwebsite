@@ -37,6 +37,6 @@ Return to it regularly. It is a live document, not a one-time exercise.
 
 ## Download
 
-The transformation works
+The Transformation Worksheet is available for free as a PDF. Please contact me for an editable version or for support implementing it in your organisation.
 
 [Download the Transformation Worksheet →](/files/transformation-worksheet.pdf)
