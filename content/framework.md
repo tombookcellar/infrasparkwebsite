@@ -13,7 +13,7 @@ The _Primary Transformation Objective_ is a focussed outcome that makes all the 
 
 ## 2. Hold the vision, flex the implementation
 
-Infrastructure projects default to Gantt charts and fixed deliverables, but change involves far more uncertainty than the golder triangle can support. Effective change leaders hold the vision and value case firm, and adapt their strategy in response to what the solution itself is telling them. The approach evolves as you learn, but "why we're doing this" stays fixed.
+Infrastructure projects default to Gantt charts and fixed deliverables, but change involves far more uncertainty than the golden triangle can support. Effective change leaders hold the vision and value case firm, and adapt their strategy in response to what the solution itself is telling them. The approach evolves as you learn, but "why we're doing this" stays fixed.
 
 Managing this intentional instability without losing focus is the key to delivering benefits in a dynamic project environment.
 
@@ -21,7 +21,7 @@ Managing this intentional instability without losing focus is the key to deliver
 
 Stakeholder alignment goes beyond assigning roles to people. The real question is whether your sponsor actually behaves like a sponsor, whether you have a genuine technical champion, whether the gatekeepers who could kill the idea at the eleventh hour are engaged, and whether your users are supported. 
 
-Delivering transformation means making sure the most imporant people are behind the idea, that they believe in and champion your work and you understand where the real power sits.
+Delivering transformation means making sure the most important people are behind the idea, that they believe in and champion your work and you understand where the real power sits.
 
 ## 4. Manage change as a process of risk reduction
 

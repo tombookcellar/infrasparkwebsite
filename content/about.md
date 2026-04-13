@@ -9,7 +9,7 @@ profile_role: "Founder, InfraSpark"
 
 I have spent my career delivering technology-enabled change in infrastructure. As a civil engineer, technologist and change practitioner, I understand the ingredients required to embed new capabilities in complex delivery environments.
 
-I have worked for client, designers and contractors across transport, water, energy and commercial buildings; delivering lean exercises, ERP transformations, 3D modelling programmes, standards development, PMO redesign, data analytics, structures inspection. Similar same pattern emerge again and again - technically sound initiatives that fail to land, innovations that never scale, technology investments that leave the way people actually work largely unchanged.
+I have worked for client, designers and contractors across transport, water, energy and commercial buildings; delivering lean exercises, ERP transformations, 3D modelling programmes, standards development, PMO redesign, data analytics, structures inspection. The same pattern emerges again and again — technically sound initiatives that fail to land, innovations that never scale, technology investments that leave the way people actually work largely unchanged.
 
 That gap between what technology promises and what organisations actually capture is where I work.
 

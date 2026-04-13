@@ -394,7 +394,9 @@ p:last-child { margin-bottom: 0; }
   letter-spacing: 0.02em;
   min-height: 80px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .wp-cell:last-child { border-right: none; }

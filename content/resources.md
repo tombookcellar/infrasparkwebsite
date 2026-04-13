@@ -23,7 +23,7 @@ Whilst few of the texts below deal directly with the specifics of designing and 
 
 **The Phoenix Project** — Gene Kim, Kevin Behr & George Spafford
 
-All available from online from [The BookCellar](https://bookcellar.uk) and in our shop in Stokes Croft, Bristol.
+All available from [the BookCellar](https://bookcellar.uk) and in our shop in Stokes Croft, Bristol.
 
 ---
 
