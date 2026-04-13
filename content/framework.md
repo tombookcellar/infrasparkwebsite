@@ -7,9 +7,9 @@ Effective change leadership in infrastructure rests on four concepts. Each draws
 
 ## 1. Focus on the critical path benefit
 
-The _Primary Transformation Objective_ is a focussed outcome that makes all the effort worth it: a single outcome that defines success for an initiative at this point in time. One bottleneck. One focus. Proven. Then the next.
+The _Primary Transformation Objective_ is a focussed outcome that makes all the effort worth it: a single, laser-focussed initiative that defines success as we understand it at this point in time. 
 
-In any infrastructure programme, there are hundreds of activities that could be improved or automated. Only a few would actually make a difference on the bottom line in terms of project time or cost benefits. Find that bottleneck, fix it, and move to the next one. Everything else is noise.
+In any infrastructure programme, there are hundreds of activities that could be improved or automated. Only a few would actually make a difference on the bottom line in terms of project time or cost benefits, and they typically sit on the critical path. Find that bottleneck, fix it, and move to the next one. Everything else is noise.
 
 ## 2. Hold the vision, flex the implementation
 
