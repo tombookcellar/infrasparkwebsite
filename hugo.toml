@@ -9,6 +9,7 @@ disableKinds = ["taxonomy", "term"]
   email = 'tom.bartley@infraspark.studio'
   og_title = 'Tom Bartley — Change Leadership for Infrastructure'
   og_description = 'Working with transformation leaders in infrastructure to build the thinking, the tools, and the capability to turn technology change into lasting organisational capability.'
+  og_image = '/img/tom-bartley.jpg'
 
 [menu]
   [[menu.main]]

@@ -5,6 +5,7 @@ layout: "about"
 profile_name: "Dr Tom Bartley"
 profile_credentials: "EngD AMICE"
 profile_role: "Founder, InfraSpark"
+description: "Dr Tom Bartley is a civil engineer, technologist, and change practitioner working with infrastructure organisations on technology-enabled transformation. EngD AMICE."
 ---
 
 I have spent my career delivering technology-enabled change in infrastructure. As a civil engineer, technologist and change practitioner, I understand the ingredients required to embed new capabilities in complex delivery environments.

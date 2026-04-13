@@ -1,6 +1,7 @@
 ---
 title: "The Transformation Worksheet"
 subtitle: "A single-page thinking tool for infrastructure change leaders."
+description: "A free single-page thinking tool for change leaders working on technology and innovation initiatives in infrastructure programmes. Download as PDF."
 ---
 
 The Transformation Worksheet is a single-page thinking tool for change leaders working on technology and innovation initiatives in infrastructure programmes.

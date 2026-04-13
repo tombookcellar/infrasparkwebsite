@@ -4,11 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.description }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.og_description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.og_description }}{{ else }}{{ with .Params.description }}{{ . }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Params.og_title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}">
-  <meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.og_description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+  <meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.og_description }}{{ else }}{{ with .Params.description }}{{ . }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:type" content="website">
+  {{ with .Site.Params.og_image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Params.og_title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.og_description }}{{ else }}{{ with .Params.description }}{{ . }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}">
+  {{ with .Site.Params.og_image }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "InfraSpark",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.og_description }}",
+    "founder": { "@type": "Person", "name": "Dr Tom Bartley" },
+    "email": "{{ .Site.Params.email }}",
+    "sameAs": ["https://www.linkedin.com/in/tombartleyuk/"]
+  }
+  </script>
+  {{ if eq .File.Path "about.md" }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dr Tom Bartley",
+    "url": "{{ .Permalink }}",
+    "jobTitle": "Founder",
+    "worksFor": { "@type": "Organization", "name": "InfraSpark", "url": "{{ .Site.BaseURL }}" },
+    "email": "{{ .Site.Params.email }}",
+    "sameAs": ["https://www.linkedin.com/in/tombartleyuk/"]
+  }
+  </script>
+  {{ end }}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

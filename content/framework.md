@@ -1,6 +1,7 @@
 ---
 title: "The Framework"
 subtitle: "Four concepts for delivering technology change in infrastructure."
+description: "Four concepts for leading technology change in infrastructure programmes: critical path benefit, vision and implementation, stakeholder alignment, and change as risk reduction."
 ---
 
 Effective change leadership in infrastructure rests on four concepts. Each draws on a body of thinking that has transformed how other industries approach delivery. Together they form a practical mindset for making innovation land in complex programme environments.
@@ -34,4 +35,4 @@ Reframing transformation from a delivery exercise into a risk management exercis
 
 The Transformation Worksheet brings these four concepts onto a single page — the practical tool for applying this thinking to a live initiative.
 
-[Download the Transformation Worksheet →](/worksheet/)
+[Download the Transformation Worksheet →](/worksheet/) · [Work With Me →](/work-with-me/)

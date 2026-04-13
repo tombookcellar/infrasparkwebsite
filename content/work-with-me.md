@@ -1,6 +1,7 @@
 ---
 title: "Work With Me"
 subtitle: "Three ways to work together."
+description: "Work with Tom Bartley on infrastructure transformation through embedded engagement, advisory for senior leaders, or training and capability development for your team."
 ---
 
 Infrastructure transformation is complicated, and the right kind of engagement depends on where you are and what you need.
