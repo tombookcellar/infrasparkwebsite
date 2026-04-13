@@ -15,37 +15,12 @@
   <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Params.og_title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}">
   <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.og_description }}{{ else }}{{ with .Params.description }}{{ . }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}">
   {{ with .Site.Params.og_image }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "InfraSpark",
-    "url": "{{ .Site.BaseURL }}",
-    "description": "{{ .Site.Params.og_description }}",
-    "founder": { "@type": "Person", "name": "Dr Tom Bartley" },
-    "email": "{{ .Site.Params.email }}",
-    "sameAs": ["https://www.linkedin.com/in/tombartleyuk/"]
-  }
-  </script>
-  {{ if eq .File.Path "about.md" }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Dr Tom Bartley",
-    "url": "{{ .Permalink }}",
-    "jobTitle": "Founder",
-    "worksFor": { "@type": "Organization", "name": "InfraSpark", "url": "{{ .Site.BaseURL }}" },
-    "email": "{{ .Site.Params.email }}",
-    "sameAs": ["https://www.linkedin.com/in/tombartleyuk/"]
-  }
-  </script>
-  {{ end }}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
+  {{ partial "schema.html" . }}
 </head>
 <body>
   {{ partial "header.html" . }}
