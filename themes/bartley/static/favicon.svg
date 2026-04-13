@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="4" fill="#F05A28"/>
+
+  <!-- Resonance wave - growing amplitude, white on orange -->
+  <path d="
+    M 2 16
+    C 4 15.5, 6 15, 8 16
+    C 10 17, 12 18.5, 14 16
+    C 16 13.5, 18 10, 20 16
+    C 22 22, 24 28, 26 16
+    C 28 4, 30 -8, 32 16
+  " fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

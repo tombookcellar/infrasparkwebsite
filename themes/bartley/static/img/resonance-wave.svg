@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F05A28;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#F05A28;stop-opacity:0.35"/>
+    </linearGradient>
+    <linearGradient id="fade2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F05A28;stop-opacity:0.04"/>
+      <stop offset="100%" style="stop-color:#F05A28;stop-opacity:0.18"/>
+    </linearGradient>
+    <linearGradient id="fade3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F05A28;stop-opacity:0.02"/>
+      <stop offset="100%" style="stop-color:#F05A28;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wave 1 - primary, growing amplitude -->
+  <path d="
+    M 0 200
+    C 40 198, 80 196, 120 200
+    C 160 204, 200 208, 240 200
+    C 280 192, 320 184, 360 200
+    C 400 216, 440 232, 480 200
+    C 520 168, 560 136, 600 200
+    C 640 264, 680 328, 720 200
+    C 760 72, 800 -56, 840 200
+    C 880 456, 920 712, 960 200
+    C 1000 -312, 1040 -824, 1080 200
+    C 1120 1224, 1160 2248, 1200 200
+    C 1240 -1848, 1280 -3896, 1320 200
+    C 1360 4296, 1400 8392, 1440 200
+  " fill="none" stroke="url(#fade)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Wave 2 - offset, slightly delayed growth -->
+  <path d="
+    M 0 200
+    C 40 199, 80 197, 120 200
+    C 160 203, 200 206, 240 200
+    C 280 194, 320 188, 360 200
+    C 400 212, 440 224, 480 200
+    C 520 176, 560 152, 600 200
+    C 640 248, 680 296, 720 200
+    C 760 104, 800 8, 840 200
+    C 880 392, 920 584, 960 200
+    C 1000 -184, 1040 -568, 1080 200
+    C 1120 968, 1160 1736, 1200 200
+    C 1240 -1336, 1280 -2872, 1320 200
+    C 1360 3272, 1400 6344, 1440 200
+  " fill="none" stroke="url(#fade2)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Wave 3 - subtle, wider -->
+  <path d="
+    M 0 200
+    C 60 199, 120 197, 180 200
+    C 240 203, 300 207, 360 200
+    C 420 193, 480 185, 540 200
+    C 600 215, 660 232, 720 200
+    C 780 168, 840 132, 900 200
+    C 960 272, 1020 352, 1080 200
+    C 1140 40, 1200 -128, 1260 200
+    C 1320 536, 1380 880, 1440 200
+  " fill="none" stroke="url(#fade3)" stroke-width="1" stroke-linecap="round"/>
+</svg>
