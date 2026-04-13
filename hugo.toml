@@ -1,0 +1,31 @@
+baseURL = 'https://infraspark.studio/'
+languageCode = 'en-gb'
+title = 'Tom Bartley'
+theme = 'bartley'
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = 'Change Leadership for Infrastructure'
+  email = 'tom.bartley@infraspark.studio'
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 1
+  [[menu.main]]
+    name = 'The Framework'
+    url = '/framework/'
+    weight = 2
+  [[menu.main]]
+    name = 'Transformation Worksheet'
+    url = '/worksheet/'
+    weight = 3
+  [[menu.main]]
+    name = 'Resources'
+    url = '/resources/'
+    weight = 4
+  [[menu.main]]
+    name = 'Work With Me'
+    url = '/work-with-me/'
+    weight = 5

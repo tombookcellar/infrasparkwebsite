@@ -1,0 +1,98 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-headline">{{ .Params.headline }}</h1>
+      <p class="hero-body">{{ .Params.body1 }}</p>
+      <p class="hero-body">{{ .Params.body2 }}</p>
+      <p class="hero-body">{{ .Params.body3 }}</p>
+      <div class="hero-actions">
+        <a href="/framework/" class="btn btn--primary">The Framework</a>
+        <a href="/worksheet/" class="btn btn--secondary">Transformation Worksheet</a>
+        <a href="/work-with-me/" class="btn btn--ghost">Work With Me</a>
+      </div>
+    </div>
+    <div class="hero-mark">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="hero-wave">
+        <path d="M10,100 C40,40 80,160 110,100 C140,40 170,160 200,100" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M10,120 C40,60 80,180 110,120 C140,60 170,180 200,120" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+        <path d="M10,80 C40,20 80,140 110,80 C140,20 170,140 200,80" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="intro-strip">
+  <div class="container">
+    <div class="intro-strip-inner">
+      <a href="/framework/" class="strip-link">The Framework</a>
+      <span class="strip-divider">—</span>
+      <a href="/worksheet/" class="strip-link">Transformation Worksheet</a>
+      <span class="strip-divider">—</span>
+      <a href="/work-with-me/" class="strip-link">Work With Me</a>
+    </div>
+  </div>
+</section>
+
+<section class="concepts">
+  <div class="container">
+    <h2 class="section-title">Four concepts. One framework.</h2>
+    <div class="concepts-grid">
+      <div class="concept-card">
+        <span class="concept-number">01</span>
+        <h3>Find the constraint</h3>
+        <p>In any infrastructure programme, a small number of activities determine how fast the whole system moves. Find the bottleneck. Fix it. Move to the next one.</p>
+      </div>
+      <div class="concept-card">
+        <span class="concept-number">02</span>
+        <h3>Hold the vision, flex the strategy</h3>
+        <p>Hold the vision and value case firm. Adapt strategy in response to what the solution itself is telling you.</p>
+      </div>
+      <div class="concept-card">
+        <span class="concept-number">03</span>
+        <h3>Manage change as risk</h3>
+        <p>Three risks determine whether an initiative succeeds: adoption, deliverability, and value. Surfacing and reducing those risks continuously is the change leader's primary job.</p>
+      </div>
+      <div class="concept-card">
+        <span class="concept-number">04</span>
+        <h3>Know your stakeholders</h3>
+        <p>Stakeholder alignment goes beyond assigning roles. The question is whether each role is genuinely being fulfilled by the people involved.</p>
+      </div>
+    </div>
+    <div class="concepts-cta">
+      <a href="/framework/" class="btn btn--primary">Explore the Framework</a>
+    </div>
+  </div>
+</section>
+
+<section class="worksheet-feature">
+  <div class="container">
+    <div class="worksheet-feature-inner">
+      <div class="worksheet-feature-text">
+        <h2>The Transformation Worksheet</h2>
+        <p>A single-page thinking tool for change leaders working on technology and innovation initiatives in infrastructure programmes. Free to download.</p>
+        <a href="/worksheet/" class="btn btn--primary">Download the Transformation Worksheet</a>
+      </div>
+      <div class="worksheet-feature-visual">
+        <div class="worksheet-preview">
+          <div class="wp-row wp-row--header">
+            <div class="wp-cell">Primary Transformation Objective</div>
+            <div class="wp-cell">Solution</div>
+            <div class="wp-cell">Business Case</div>
+          </div>
+          <div class="wp-row">
+            <div class="wp-cell">Stakeholders</div>
+            <div class="wp-cell">Changes to BAU</div>
+            <div class="wp-cell">Top 3 Risks</div>
+          </div>
+          <div class="wp-row wp-row--footer">
+            <div class="wp-cell">Summary of Position</div>
+            <div class="wp-cell">Possible Actions</div>
+            <div class="wp-cell">Best Next Actions</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

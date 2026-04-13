@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" fill="currentColor"/>
+    </svg>
+  </div>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-name">Tom Bartley</span>
+        <span class="footer-tagline">Change Leadership for Infrastructure</span>
+      </div>
+      <nav class="footer-nav">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+        <a href="/contact/">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+        <a href="https://www.linkedin.com/in/tombartleyuk/" class="footer-linkedin">LinkedIn</a>
+        <span class="footer-studio">InfraSpark Studio</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>

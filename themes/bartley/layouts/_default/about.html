@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="page">
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+  <div class="page-body">
+    <div class="container">
+      <div class="about-profile">
+        <img src="/img/tom-bartley.jpg" alt="{{ .Params.profile_name }}" class="about-photo">
+        <div class="about-identity">
+          <span class="about-name">{{ .Params.profile_name }}</span>
+          <span class="about-credentials">{{ .Params.profile_credentials }}</span>
+          <span class="about-role">{{ .Params.profile_role }}</span>
+        </div>
+      </div>
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}
