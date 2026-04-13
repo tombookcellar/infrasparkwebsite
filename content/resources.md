@@ -1,6 +1,7 @@
 ---
 title: "Resources"
 subtitle: "The reading list. The thinking. The tools."
+description: "The reading list behind the InfraSpark framework — books on constraint management, strategy, risk, and stakeholder alignment for infrastructure change leaders."
 ---
 
 The thinking behind the framework is grounded in a small number of texts that every serious change leader in infrastructure should engage with. These provide intellectual foundation for how to approach constraint identification, strategy, risk, and stakeholder alignment in complex programme environments.
