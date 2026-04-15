@@ -14,7 +14,7 @@ I have worked for clients, designers and contractors across transport, water, en
 
 _The gap between what technology promises and what organisations actually capture is vast. Too many initiatives deliver promising pilots that don't cross the chasm into business as usual._
 
-I see so many promising initiatives wither out, high-potential people lose faith and an industry that remains slow and expensive.
+I see so many well-intentioned initiatives wither out, high-potential people lose faith and an industry that remains slow and expensive.
 
 My mission is to elevate _Change Leadership_ in infrastrasture, by giving the industry the capability to embed technology and innovation as the new BAU. 
 
@@ -42,7 +42,7 @@ The [Change Leadership Framework](/framework/) I have developed draws on the bes
 
 I support a range of organisations from industry bodies, capital delivery programmes through to pre-revenue startups. 
 
-Visit [Work With Me](/work-with-me/) to explore how I can help build your change leadership muscle.
+Visit [Work With Me](/work-with-me/) to explore how I can help build your change and transformation capability.
 
 ---
 
