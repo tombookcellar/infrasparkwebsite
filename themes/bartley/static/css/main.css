@@ -546,12 +546,6 @@ p:last-child { margin-bottom: 0; }
   color: var(--grey-500);
 }
 
-@media (max-width: 480px) {
-  .about-profile {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
 
 /* Book list styling */
 .prose .book-list {
@@ -675,13 +669,15 @@ p:last-child { margin-bottom: 0; }
     padding: 1rem var(--gutter);
     border-bottom: 1px solid var(--grey-200);
     gap: 0.25rem;
+    z-index: 99;
   }
 
   .site-nav.is-open { display: flex; }
 
   .nav-toggle { display: flex; }
 
-  .logo-sub { display: none; }
+  .logo-sub,
+  .logo-rule { display: none; }
 
   .hero .container {
     grid-template-columns: 1fr;
@@ -689,9 +685,23 @@ p:last-child { margin-bottom: 0; }
 
   .hero-wave { display: none; }
 
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
   .worksheet-feature-inner {
     grid-template-columns: 1fr;
     gap: 3rem;
+  }
+
+  .worksheet-preview {
+    display: none;
   }
 
   .footer-inner {
@@ -704,4 +714,17 @@ p:last-child { margin-bottom: 0; }
   .concepts-grid {
     grid-template-columns: 1fr;
   }
+
+  .page-body {
+    background-image: none;
+  }
+
+  .about-profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.prose {
+  overflow-wrap: break-word;
 }

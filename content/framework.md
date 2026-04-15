@@ -33,6 +33,6 @@ Reframing transformation from a delivery exercise into a risk management exercis
 
 ---
 
-The Transformation Worksheet brings these four concepts onto a single page — the practical tool for applying this thinking to a live initiative.
+The Transformation Worksheet brings these four concepts onto a single page, and is a practical tool for applying this thinking to a live initiative.
 
 [Download the Transformation Worksheet →](/worksheet/) · [Work With Me →](/work-with-me/)
