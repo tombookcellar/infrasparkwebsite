@@ -567,6 +567,116 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ============================================================
+   ASSET CUSTODIANSHIP PAGE
+   ============================================================ */
+.page-authors {
+  font-size: 0.85rem;
+  color: var(--grey-500);
+  margin-top: 0.5rem;
+  font-family: var(--font-heading);
+  letter-spacing: 0.03em;
+}
+
+.custodian-intro {
+  padding: 4rem 0 0;
+}
+
+.custodian-themes {
+  padding: 3rem 0 var(--section-gap);
+}
+
+.custodian-themes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.custodian-download {
+  background: var(--grey-900);
+  padding: var(--section-gap) 0;
+  color: var(--white);
+  text-align: center;
+}
+
+.custodian-download h2 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.custodian-download-authors {
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.custodian-download-meta {
+  display: block;
+  color: rgba(255,255,255,0.4);
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  font-family: var(--font-heading);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.custodian-cta {
+  padding: var(--section-gap) 0;
+  text-align: center;
+}
+
+.custodian-cta-text {
+  color: var(--grey-700);
+  max-width: 52ch;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+}
+
+/* ============================================================
+   FEATURED PAPER (resources page)
+   ============================================================ */
+.featured-paper {
+  background: var(--grey-900);
+  padding: var(--section-gap) 0;
+  color: var(--white);
+}
+
+.featured-paper-eyebrow {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--orange);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.featured-paper h2 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.featured-paper-subtitle {
+  color: rgba(255,255,255,0.6);
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.featured-paper-desc {
+  color: rgba(255,255,255,0.7);
+  max-width: 52ch;
+  margin-bottom: 2.5rem;
+  font-size: 1.02rem;
+}
+
+.featured-paper-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ============================================================
    FOOTER
    ============================================================ */
 .site-footer {
@@ -703,5 +813,14 @@ p:last-child { margin-bottom: 0; }
 
   .concepts-grid {
     grid-template-columns: 1fr;
+  }
+
+  .custodian-themes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-paper-actions {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

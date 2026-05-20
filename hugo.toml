@@ -32,3 +32,32 @@ disableKinds = ["taxonomy", "term"]
     name = 'Work With Me'
     url = '/work-with-me/'
     weight = 5
+
+  [[menu.footer]]
+    name = 'About'
+    url = '/about/'
+    weight = 1
+  [[menu.footer]]
+    name = 'The Framework'
+    url = '/framework/'
+    weight = 2
+  [[menu.footer]]
+    name = 'Transformation Worksheet'
+    url = '/worksheet/'
+    weight = 3
+  [[menu.footer]]
+    name = 'Asset Custodianship'
+    url = '/asset-custodianship/'
+    weight = 4
+  [[menu.footer]]
+    name = 'Resources'
+    url = '/resources/'
+    weight = 5
+  [[menu.footer]]
+    name = 'Work With Me'
+    url = '/work-with-me/'
+    weight = 6
+  [[menu.footer]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 7
