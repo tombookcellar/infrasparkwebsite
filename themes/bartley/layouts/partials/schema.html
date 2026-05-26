@@ -1,0 +1,53 @@
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "InfraSpark",
+  "url": "{{ .Site.BaseURL }}",
+  "founder": {
+    "@type": "Person",
+    "name": "Dr Tom Bartley",
+    "credentials": "EngD AMICE"
+  },
+  "description": "{{ .Site.Params.og_description }}",
+  "sameAs": ["https://www.linkedin.com/in/tombartleyuk/"]
+}
+</script>
+{{- else if eq .Layout "about" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr Tom Bartley",
+  "honorificPrefix": "Dr",
+  "hasCredential": "EngD AMICE",
+  "jobTitle": "Founder",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "InfraSpark",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "url": "{{ .Permalink }}",
+  "sameAs": ["https://www.linkedin.com/in/tombartleyuk/"],
+  "image": "{{ .Site.BaseURL }}img/tom-bartley.jpg"
+}
+</script>
+{{- else if eq .File.BaseFileName "work-with-me" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Change Leadership for Infrastructure",
+  "provider": {
+    "@type": "Person",
+    "name": "Dr Tom Bartley",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "description": "{{ .Params.description }}",
+  "url": "{{ .Permalink }}",
+  "areaServed": "GB",
+  "serviceType": ["Embedded Engagement", "Advisory", "Training and Capability Development", "Strategy and Discovery"]
+}
+</script>
+{{- end -}}

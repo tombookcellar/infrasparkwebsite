@@ -24,7 +24,7 @@ The Transformation Worksheet is completed by the Change Leader before a structur
 
 **Bottom section — judgement and options.** An honest summary of the current position, possible actions listed without filtering, and best next actions agreed in the conversation.
 
-The output is shared clarity and agreed actions — not a completed form.
+The output is shared clarity and agreed actions.
 
 ## How to use it
 
@@ -32,7 +32,7 @@ The Transformation Worksheet provides the basis for structured conversation focu
 
 A useful flow is to confirm the Primary Transformation Objective, challenge whether the solution genuinely delivers a benefit worth the effort, test whether priorities are focused on what is limiting progress, explore risks honestly and early, discuss BAU readiness, and agree a small number of best next actions.
 
-Return to it regularly. It is a live document, not a one-time exercise.
+Return to it regularly. It is a live document, not a one-time exercise, or governance deliverable.
 
 ---
 
