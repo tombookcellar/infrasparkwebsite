@@ -11,10 +11,9 @@
         <span class="footer-tagline">Change Leadership for Infrastructure</span>
       </div>
       <nav class="footer-nav">
-        {{ range .Site.Menus.main }}
+        {{ range .Site.Menus.footer }}
         <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
-        <a href="/contact/">Contact</a>
       </nav>
       <div class="footer-contact">
         <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>

@@ -1,0 +1,39 @@
+{{ define "main" }}
+<article class="page">
+
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+
+  <div class="featured-paper">
+    <div class="container">
+      <span class="featured-paper-eyebrow">Writing</span>
+      <h2>The Asset Custodian</h2>
+      <p class="featured-paper-subtitle">New thinking for old assets</p>
+      <p class="featured-paper-desc">A practical framework for infrastructure professionals responsible for keeping ageing civil assets safe and serviceable — written for those managing roads, bridges, drainage, and transport networks in local authorities and national transport bodies.</p>
+      <div class="featured-paper-actions">
+        <a href="/asset-custodianship/" class="btn btn--secondary">Read more</a>
+        <a href="/files/the-asset-custodian.pdf" class="btn btn--primary" download>Download PDF</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-body">
+    <div class="container">
+      {{ if .Params.toc }}
+      <div class="toc">
+        <p class="toc-title">Contents</p>
+        {{ .TableOfContents }}
+      </div>
+      {{ end }}
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+</article>
+{{ end }}

@@ -1,0 +1,53 @@
+{{ define "main" }}
+<article class="page">
+
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+      {{ with .Params.authors }}<p class="page-authors">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+
+  <div class="custodian-intro">
+    <div class="container">
+      <div class="prose">
+        {{ with .Params.intro1 }}<p>{{ . }}</p>{{ end }}
+        {{ with .Params.intro2 }}<p>{{ . }}</p>{{ end }}
+        {{ with .Params.intro3 }}<p>{{ . }}</p>{{ end }}
+        {{ with .Params.intro4 }}<p>{{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="custodian-themes">
+    <div class="container">
+      <div class="custodian-themes-grid">
+        {{ range .Params.themes }}
+        <div class="concept-card">
+          <h3>{{ .title }}</h3>
+          <p>{{ .body }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="custodian-download">
+    <div class="container">
+      <h2>{{ .Title }}</h2>
+      {{ with .Params.authors }}<p class="custodian-download-authors">{{ . }}</p>{{ end }}
+      <a href="{{ .Params.download_file }}" class="btn btn--primary" download>Download the paper (PDF)</a>
+      {{ with .Params.download_meta }}<span class="custodian-download-meta">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+
+  <div class="custodian-cta">
+    <div class="container">
+      {{ with .Params.cta_text }}<p class="custodian-cta-text">{{ . }}</p>{{ end }}
+      <a href="/contact/" class="btn btn--secondary">Get in touch</a>
+    </div>
+  </div>
+
+</article>
+{{ end }}

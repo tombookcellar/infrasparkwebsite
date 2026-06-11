@@ -2,6 +2,7 @@
 title: "Resources"
 subtitle: "The reading list. The thinking. The tools."
 description: "The reading list behind the InfraSpark Change Leadership framework — books on change management, strategy, risk, and stakeholder alignment for infrastructure change leaders."
+layout: "resources"
 toc: true
 ---
 
