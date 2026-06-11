@@ -89,7 +89,7 @@ The Phoenix Project is an unashamed retelling of [The Goal](#the-goal--eli-goldr
 
 It follows our protagonist Brian who is at the helm of the IT Project From Hell. Everything is going wrong. Go live is late, systems aren't talking to eachother, it takes an age for any individual request to get handled, and the CEO is breathing down his neck because the board aren't happy.
 
-Most of us will be familiar - at least in name and concept - with agile project management, with Scrum as the dominant framework. The term DevOps, rightly, hasn't broken out of the technology world into infrastructure project delivery
+Most of us will be familiar - at least in name and concept - with agile project management, with Scrum as the dominant framework. The term DevOps, rightly, hasn't broken out of the technology world into infrastructure projects. It is the technology backbone that enables agile software teams to deliver 
 
 ---
 
