@@ -454,7 +454,8 @@ p:last-child { margin-bottom: 0; }
   scroll-margin-top: calc(72px + 1.5rem);
 }
 
-.prose h2:first-child {
+.prose h2:first-child,
+.prose hr + h2 {
   margin-top: 0;
   padding-top: 0;
   border-top: none;
@@ -503,6 +504,46 @@ p:last-child { margin-bottom: 0; }
   border: none;
   border-top: 1px solid var(--grey-200);
   margin: 2.5rem 0;
+}
+
+/* Offering cards (Work With Me page) */
+.offering {
+  border: 1px solid var(--grey-200);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.offering h3.offering-label:first-child {
+  margin-top: 0;
+}
+
+.offering-body {
+  color: var(--grey-700);
+  font-size: 1.02rem;
+  margin-bottom: 1.5rem;
+}
+
+.offering-tagline {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.offering-meta {
+  font-size: 0.95rem;
+  color: var(--grey-700);
+  margin-bottom: 0.5rem;
+}
+
+.offering-meta strong {
+  color: var(--black);
+}
+
+.offering .btn {
+  margin-top: 1rem;
 }
 
 /* Table of contents */

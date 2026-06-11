@@ -10,6 +10,8 @@ The thinking behind the framework is grounded in a small number of texts that ev
 
 Whilst few of the texts below deal directly with the specifics of designing and delivering physical infrastructure, each provides a core foundation for a different dimension thinking about introducing change into your organisation and projects. 
 
+I'm working with local independent bookshop [the BookCellar](https://bookcellar.uk/product-tag/infraspark/) to make these titles available for home delivery. 
+
 ## The Reading List
 
 ### **The Goal** — Eli Goldratt
@@ -23,7 +25,7 @@ I love the narrative fiction format which encompasses the human impacts of ways 
 
 The Theory of Constraints is all about optimising for system-level throughput. In the change leadership framework this translates to addressing the Critical Path Benefit. Too many innovation initiatives aim to address local opimisation challenges, but unless it actually helps deliver the whole scheme faster or reduce the actual outturn cost of the project, we're just fiddling with the dials. 
 
-_The Goal is available to buy from our affiliate [here](https://uk.bookshop.org/p/books/the-goal-a-process-of-ongoing-improvement-eliyahu-m-goldratt/55822?ean=9780566086656&next=t)_
+_The Goal is available to buy [here](https://bookcellar.uk/shop/the-goal/)_
 
 ### **The Startup Way** — Eric Ries
 The Lean Startup has become the bible for high growth tech startups - popularising the phrase _Minimum Viable Product_, but it doesn't translate to enterprise contexts which is where The Startup Way comes in.
@@ -32,7 +34,9 @@ Delivering innovation and transformation means dealing with uncertainty - tradit
 
 The Startup Way provides the basic enterprise mechanics for introducing new things when there are so many unknowns - raising assumptions, putting a value on validated learning and setting the expectation that we need to move fast, test things, and iterate based on what we learn.
 
-In the Change Leadership Framework this translates to the Primary Transformation Objective - what's the one, smallest thing we can do now to prove we're on the right track. Not a pilot or a workshop, but something that moves the dial towards achieving our critical path benefit.
+In the Change Leadership Framework this translates to two major concepts. First is _hold the vision, flex the implementation_, the Startup Way describes how there are many ways to get to our goal, but usually it's not the one we thought it was at the outset. We need to be prepared to adapt how we're going to realise the benefits. 
+
+Which leads to the second concept - the _Primary Transformation Objective_ - what's the one, smallest thing we can do now that proves we're on the right track by actually delivering value. Not a pilot or a workshop, but something that moves the dial towards achieving our critical path benefit demonstrates a real ROI in the business.
 
 _The Startup Way is available to buy [here](https://bookcellar.uk/shop/the-startup-way/)._
 
@@ -52,7 +56,7 @@ I have adapted these three risk categories directly into the Change Leadership F
 
 By flipping the project plan from a gantt chart, to a continuous process of surfacing and managing emerging risk across these three categories we can identify our key assumptions and address them quickly without blindly following a plan that was doomed to fail.
 
-_Inspired is available to buy from our affiliate [here](https://uk.bookshop.org/p/books/inspired-how-to-create-tech-products-customers-love-2nd-edition-m-cagan/4793175?ean=9781119387503&next=t)_
+_Inspired is available to buy [here](https://bookcellar.uk/shop/inspired/)_
 
 ### **Switch** — Chip & Dan Heath
 Switch reframes change management into a single question "what is the switch we're asking people to make?" 
@@ -66,7 +70,7 @@ In the Change Leadership Framework, we have choices for how we frame transformat
 _Switch is available to buy [here](https://bookcellar.uk/shop/switch/)_
 
 ### **To Sell is Human** — Daniel Pink
-Sales can be seen as a dirty word. We're infrastructure professionals. We act with integrity and use logic to justify our decisions. But To Sell is Human argues that any time we ask someone to do something that they wouldn't otherwise do, we are in actuality doing sales. 
+Sales can be seen as a dirty word. We're infrastructure professionals. We act with integrity and use logic to justify our decisions. But To Sell is Human argues that any time we ask someone to do something that they wouldn't otherwise do, we are in-actuality doing sales. 
 
 People delivering infrastructure projects are extremely busy. They have reached senior roles because they have a track record of doing what they do, and they typically don't have the time, headspace or risk appetite to adopt your new gizmo on their project (thank you all the same). 
 
@@ -84,6 +88,8 @@ These are situations where multiple people are involved in the decision to buy o
 The New Strategic Selling gives us a framework categorise all the people involved in a decision, understand their real role in enabling the change and rank their influence and attitude to surface where the real power sits and identify adoption risks.
 
 This framing has been translated into the Change Leadership Framework as our _Change as Stakeholder Management_ concept - with stakeholder roles for sponsors, stewards, and the various user roles. Most delivery people are just trying to protect their work from external noise, by understanding their motivations we can adapt the solution to meet their needs and move them from being a blocker to a champion. 
+
+_The New Strategic Selling is available to buy [here](https://bookcellar.uk/shop/the-new-strategic-selling/)_
 
 ### **The Phoenix Project** — Gene Kim, Kevin Behr & George Spafford
 The Phoenix Project is an unashamed retelling of [The Goal](#the-goal--eli-goldratt), but translated for technology projects. 

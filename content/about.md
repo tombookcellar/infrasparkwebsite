@@ -48,6 +48,8 @@ Visit [Work With Me](/work-with-me/) to explore how I can help build your change
 
 ## the BookCellar
 
-I also run [the BookCellar](https://bookcellar.uk), an independent bookshop and reading room in Bristol. The reading list that underpins this my thinking is available online and in-store.
+Along with my wife, Claire, I own an independent bookshop and reading room in Bristol, the BookCellar. 
+
+Books are fundamental to my thinking, and the [reading list](/resources) that underpins this my thinking is available [online](https://bookcellar.uk/product-tag/infraspark/).
 
 Come for the books, stay for the wine.

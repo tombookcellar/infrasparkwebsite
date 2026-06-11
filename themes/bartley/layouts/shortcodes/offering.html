@@ -1,0 +1,10 @@
+<div class="offering">
+  <h3 class="offering-label">{{ .Get "label" }}</h3>
+  <p class="offering-tagline">{{ .Get "tagline" }}</p>
+  <div class="offering-body">
+    {{ .Inner | markdownify }}
+  </div>
+  {{ with .Get "who" }}<p class="offering-meta"><strong>Who it's for:</strong> {{ . }}</p>{{ end }}
+  {{ with .Get "what" }}<p class="offering-meta"><strong>What you get:</strong> {{ . }}</p>{{ end }}
+  <a href="mailto:{{ $.Site.Params.email }}" class="btn btn--secondary">Get in touch →</a>
+</div>
