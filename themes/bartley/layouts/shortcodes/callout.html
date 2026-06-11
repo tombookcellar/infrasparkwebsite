@@ -1,0 +1,8 @@
+<div class="callout">
+  {{ with .Get "title" }}<p class="callout-title">{{ . }}</p>{{ end }}
+  {{ with .Get "desc" }}<p class="callout-desc">{{ . }}</p>{{ end }}
+  <p class="callout-links">
+    {{ with .Get "link" }}<a href="{{ . }}">{{ $.Get "linktext" | default "Read more" }} →</a>{{ end }}
+    {{ with .Get "download" }} · <a href="{{ . }}" download>Download PDF</a>{{ end }}
+  </p>
+</div>

@@ -105,3 +105,5 @@ Thinking in practice. Case studies, observations, and working notes on technolog
 Most of the writing is published on LinkedIn — follow along there.
 
 [Follow on LinkedIn →](https://www.linkedin.com/in/tombartleyuk/)
+
+{{< callout title="The Asset Custodian" desc="New thinking for old assets — a practical framework for keeping ageing civil assets safe and serviceable." link="/asset-custodianship/" download="/files/the-asset-custodian.pdf" >}}

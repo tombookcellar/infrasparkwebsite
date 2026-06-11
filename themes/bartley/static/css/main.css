@@ -674,47 +674,41 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ============================================================
-   FEATURED PAPER (resources page)
+   CALLOUT (inline promo box within prose)
    ============================================================ */
-.featured-paper {
-  background: var(--grey-900);
-  padding: var(--section-gap) 0;
-  color: var(--white);
+.callout {
+  background: var(--grey-100);
+  border-left: 3px solid var(--orange);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
 }
 
-.featured-paper-eyebrow {
-  display: block;
+.callout-title {
   font-family: var(--font-heading);
-  font-size: 0.75rem;
   font-weight: 700;
-  color: var(--orange);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-
-.featured-paper h2 {
-  color: var(--white);
-  margin-bottom: 0.5rem;
-}
-
-.featured-paper-subtitle {
-  color: rgba(255,255,255,0.6);
   font-size: 1rem;
-  margin-bottom: 1.25rem;
+  color: var(--black);
+  margin-bottom: 0.4rem;
 }
 
-.featured-paper-desc {
-  color: rgba(255,255,255,0.7);
-  max-width: 52ch;
-  margin-bottom: 2.5rem;
-  font-size: 1.02rem;
+.callout-desc {
+  font-size: 0.95rem;
+  color: var(--grey-700);
+  margin-bottom: 0.75rem;
 }
 
-.featured-paper-actions {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+.callout-links {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.callout-links a {
+  color: var(--orange);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* ============================================================
@@ -874,11 +868,6 @@ p:last-child { margin-bottom: 0; }
 
   .custodian-themes-grid {
     grid-template-columns: 1fr;
-  }
-
-  .featured-paper-actions {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .page-body {
