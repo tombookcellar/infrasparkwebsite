@@ -90,7 +90,11 @@ The Phoenix Project is an unashamed retelling of [The Goal](#the-goal--eli-goldr
 
 It follows our protagonist Brian who is at the helm of the IT Project From Hell. Everything is going wrong. Go live is late, systems aren't talking to eachother, it takes an age for any individual request to get handled, and the CEO is breathing down his neck because the board aren't happy.
 
-Most of us will be familiar - at least in name and concept - with agile project management, with Scrum as the dominant framework. The term DevOps, rightly, hasn't broken out of the technology world into infrastructure projects. It is the technology backbone that enables agile software teams to deliver 
+Most of us will be familiar - at least in name and concept - with agile project management, with Scrum as the dominant framework. The term _DevOps_ rightly hasn't broken out of the technology world into infrastructure projects. It is the technology backbone that enables agile software teams to deliver and test changes at a sub-daily cadence.
+
+The Phoenix Project is perhaps the nerdiest book on this list but it's also the one that goes heavy on the importance of teamwork, expertise and inter-disciplinary collaboration in delivering solutions and making change happen.
+
+This is an expert-level novel for an infrastructure professional, but if you are spinning the wheels on developing or integrating a solution, or struggling getting teams to work together, it will certainly contain some inspiration for a way forward.
 
 ---
 
