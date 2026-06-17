@@ -10,7 +10,7 @@ The thinking behind the framework is grounded in a small number of texts that ev
 
 Whilst few of the texts below deal directly with the specifics of designing and delivering physical infrastructure, each provides a core foundation for a different dimension thinking about introducing change into your organisation and projects. 
 
-I'm working with local independent bookshop [the BookCellar](https://bookcellar.uk/product-tag/infraspark/) to make these titles available for home delivery. 
+I'm working with local independent bookshop [the BookCellar](https://bookcellar.uk/product-tag/infraspark/) to make these titles available for home delivery, and via [audiobook](https://libro.fm/bookcellarbristol). I have listed the audiobooks because I find that the easiest way to work through many new ideas, using the hard copy as a reference to refer back to later.
 
 ## The Reading List
 
@@ -25,7 +25,7 @@ I love the narrative fiction format which encompasses the human impacts of ways 
 
 The Theory of Constraints is all about optimising for system-level throughput. In the change leadership framework this translates to addressing the Critical Path Benefit. Too many innovation initiatives aim to address local opimisation challenges, but unless it actually helps deliver the whole scheme faster or reduce the actual outturn cost of the project, we're just fiddling with the dials. 
 
-_The Goal is available to buy [here](https://bookcellar.uk/shop/the-goal/)_
+_The Goal is available to buy as a [paperback](https://bookcellar.uk/shop/the-goal/), and as an [audiobook](https://libro.fm/audiobooks/9781622313952-the-goal?bookshop=bookcellarbristol)._
 
 ### **The Startup Way** — Eric Ries
 The Lean Startup has become the bible for high growth tech startups - popularising the phrase _Minimum Viable Product_, but it doesn't translate to enterprise contexts which is where The Startup Way comes in.
@@ -38,7 +38,7 @@ In the Change Leadership Framework this translates to two major concepts. First 
 
 Which leads to the second concept - the _Primary Transformation Objective_ - what's the one, smallest thing we can do now that proves we're on the right track by actually delivering value. Not a pilot or a workshop, but something that moves the dial towards achieving our critical path benefit demonstrates a real ROI in the business.
 
-_The Startup Way is available to buy [here](https://bookcellar.uk/shop/the-startup-way/)._
+_The Startup Way is available to buy as a [paperback](https://bookcellar.uk/shop/the-startup-way/), and as an [audiobook](https://libro.fm/audiobooks/9780241976920-the-startup-way?bookshop=bookcellarbristol)._
 
 ### **Inspired** — Marty Cagan
 Inspired is the handbook used by silicon valley tech companies to manage high-growth software products, and its the number one text I recommendend for anyone taking responsibility for agile software projects.
@@ -56,7 +56,7 @@ I have adapted these three risk categories directly into the Change Leadership F
 
 By flipping the project plan from a gantt chart, to a continuous process of surfacing and managing emerging risk across these three categories we can identify our key assumptions and address them quickly without blindly following a plan that was doomed to fail.
 
-_Inspired is available to buy [here](https://bookcellar.uk/shop/inspired/)_
+_Inspired is available to buy as a [paperback](https://bookcellar.uk/shop/inspired/), and as an [audiobook](https://libro.fm/audiobooks/9781663731241-inspired?bookshop=bookcellarbristol)._
 
 ### **Switch** — Chip & Dan Heath
 Switch reframes change management into a single question "what is the switch we're asking people to make?" 
@@ -67,7 +67,7 @@ The book uses the metaphor of an elephant and its rider to represent how the bra
 
 In the Change Leadership Framework, we have choices for how we frame transformation objectives, benefits and solutions. Switch provides a range of analogous case studies to help us clear the path for a changes that land with users and deliver the value we are aiming for.
 
-_Switch is available to buy [here](https://bookcellar.uk/shop/switch/)_
+_Switch is available to buy as a [paperback](https://bookcellar.uk/shop/switch/), and as an [audiobook](https://libro.fm/audiobooks/9781473578746-switch?bookshop=bookcellarbristol)._
 
 ### **To Sell is Human** — Daniel Pink
 Sales can be seen as a dirty word. We're infrastructure professionals. We act with integrity and use logic to justify our decisions. But To Sell is Human argues that any time we ask someone to do something that they wouldn't otherwise do, we are in-actuality doing sales. 
@@ -78,7 +78,7 @@ So how do we convince them? Well, Daniel Pink would say you need to sell it to t
 
 This is not a traditional sales book, nor is it necessarily about change management. It frames selling techniques as a means of personal effectiveness at work, and provides a set of simple approaches you can adopt which will increase your chances of reducing adoption risk.
 
-_To Sell is Human is available to buy [here](https://bookcellar.uk/shop/to-sell-is-human/)_
+_To Sell is Human is available to as a [paperback](https://bookcellar.uk/shop/to-sell-is-human/), and as an [audiobook](https://libro.fm/audiobooks/9780857869463-to-sell-is-human?bookshop=bookcellarbristol)._
 
 ### **The New Strategic Selling** — Miller & Heiman
 Now that we've accepted that Change Leadership involves selling, The New Stategic Selling is a real sales book for what they call "complex sales". 
@@ -89,7 +89,7 @@ The New Strategic Selling gives us a framework categorise all the people involve
 
 This framing has been translated into the Change Leadership Framework as our _Change as Stakeholder Management_ concept - with stakeholder roles for sponsors, stewards, and the various user roles. Most delivery people are just trying to protect their work from external noise, by understanding their motivations we can adapt the solution to meet their needs and move them from being a blocker to a champion. 
 
-_The New Strategic Selling is available to buy [here](https://bookcellar.uk/shop/the-new-strategic-selling/)_
+_The New Strategic Selling is only available as a [paperback](https://bookcellar.uk/shop/the-new-strategic-selling/)._
 
 ### **The Phoenix Project** — Gene Kim, Kevin Behr & George Spafford
 The Phoenix Project is an unashamed retelling of [The Goal](#the-goal--eli-goldratt), but translated for technology projects. 
@@ -102,6 +102,7 @@ The Phoenix Project is perhaps the nerdiest book on this list but it's also the 
 
 This is an expert-level novel for an infrastructure professional, but if you are spinning the wheels on developing or integrating a solution, or struggling getting teams to work together, it will certainly contain some inspiration for a way forward.
 
+_The Phoenix Project is currently only available as an [audiobook](https://www.audible.co.uk/pd/The-Phoenix-Project-Audiobook/B00VB034GK).__
 ---
 
 ## Writing

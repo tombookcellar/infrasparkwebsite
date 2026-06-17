@@ -48,7 +48,7 @@ Visit [Work With Me](/work-with-me/) to explore how I can help build your change
 
 ## the BookCellar
 
-Along with my wife, Claire, I own an independent bookshop and reading room in Bristol, the BookCellar. 
+I also own an independent bookshop and reading room in Bristol, the BookCellar, along with my wife, Claire, . 
 
 Books are fundamental to my thinking, and the [reading list](/resources) that underpins this my thinking is available [online](https://bookcellar.uk/product-tag/infraspark/).
 
