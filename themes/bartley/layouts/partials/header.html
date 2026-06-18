@@ -3,11 +3,27 @@
     <a href="/" class="site-logo">
       <span class="logo-name">Tom Bartley</span>
       <span class="logo-rule"></span>
-      <span class="logo-sub">Change Leadership for Infrastructure</span>
+      <span class="logo-sub">Giving Innovation Resonance</span>
     </a>
     <nav class="site-nav">
       {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+      {{ $childActive := false }}{{ range .Children }}{{ if eq $.RelPermalink .URL }}{{ $childActive = true }}{{ end }}{{ end }}
+      <div class="nav-dropdown{{ if $childActive }} nav-dropdown--active{{ end }}">
+        <button class="nav-link nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          {{ .Name }}<span class="nav-dropdown-caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-dropdown-menu">
+          <div class="nav-dropdown-menu-inner">
+            {{ range .Children }}
+            <a href="{{ .URL }}" class="nav-dropdown-item{{ if eq $.RelPermalink .URL }} nav-dropdown-item--active{{ end }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ else }}
       <a href="{{ .URL }}" class="nav-link{{ if eq $.RelPermalink .URL }} nav-link--active{{ end }}">{{ .Name }}</a>
+      {{ end }}
       {{ end }}
       <a href="/contact/" class="nav-cta">Get in Touch</a>
     </nav>

@@ -1,5 +1,5 @@
 ---
-title: "The Framework"
+title: "Change Leadership Framework"
 subtitle: "Four concepts for leading technology change in infrastructure."
 description: "Four concepts for leading technology change in infrastructure programmes: critical path benefit, vision and implementation, stakeholder alignment, and change as risk reduction."
 ---
